@@ -1,0 +1,13 @@
+[project]
+name = "04-game-master-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.6.0",
+    "litellm[completion]>=1.74.0.post1",
+    "openai-agents>=0.1.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+]
